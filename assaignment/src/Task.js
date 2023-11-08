@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import './App.css';
 const Task = ({ task, onToggle, onDelete }) => {
   return (
     <div className={`card mb-3 ${task.completed ? 'bg-success text-white' : ''}`}>

@@ -24,10 +24,9 @@ const App = () => {
   }
 
   return (
-    <div className="container mt-5">
-      <h1 className="mb-4">Task Manager</h1>
-      <div className="row mb-4">
-        <div className="col-md-6">
+    <div className="containerr">
+      <div className="row">
+        <div className="col">
           <TaskForm onSubmit={addTask} />
         </div>
       </div>
